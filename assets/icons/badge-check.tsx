@@ -8,7 +8,7 @@ export function BadgeCheck() {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="#13a4ec"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
