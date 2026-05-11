@@ -4,10 +4,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { BadgeCheck } from "@/assets/icons/badge-icon";
 import SecurityIcon from "@/assets/icons/security-icon";
 
-
-export const LeftSection = () => {
+export const LeftRegist = () => {
     return (
         <div className="w-1/2 flex flex-col justify-center p-10 px-10 gap-4" >
+
             <Badge variant="secondary">precision concierge service</Badge>
             <h1 className="text-6xl font-bold">Elevate your standart of service</h1>
 

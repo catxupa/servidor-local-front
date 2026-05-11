@@ -9,6 +9,7 @@ export default function LoginPage() {
         <div className="bg-gray-200  h-screen flex justify-between">
             <LeftSection />
             <RightSection />
+            
         </div>
     )
 } 
