@@ -15,12 +15,7 @@ export default function Nav() {
                 <div className="flex items-center gap-10">
                     <span className="text-3xl font-semibold tracking-tight text-blue-500">Azure Meridian</span>
 
-                    <div className="flex gap-10 font-semibold">
-                        <Link className="" href="#">Find Pros</Link>
-                        <Link href="#">Services</Link>
-                        <Link href="#">Projects</Link>
-                        <Link href="#">Support</Link>
-                    </div>
+              
                 </div>
 
                 <div className="flex items-center gap-4">
@@ -36,12 +31,12 @@ export default function Nav() {
                             <BellIcon />
                         </Link>
                     </div>
-
                     <div className="p-2 hover:bg-slate-50 rounded-full transition-all active:scale-95">
                         <Link href="#">
                             <UserRound />
                         </Link>
                     </div>
+
 
                 </div>
             </div>
