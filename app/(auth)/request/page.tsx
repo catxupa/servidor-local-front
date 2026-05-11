@@ -1,5 +1,6 @@
 import BannerRequest from "@/components/banner-request/banner";
 import NaveBar from "@/components/navbar/nav-request";
+import { Tavela } from "@/components/tabela/tavela";
 
 
 export default function RequestPage() {
@@ -11,6 +12,7 @@ export default function RequestPage() {
                 </NaveBar>
             </div>
             <BannerRequest />
+            <Tavela />
         </>
     )
 }
