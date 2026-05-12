@@ -1,6 +1,7 @@
 import CalendarIcon from "@/assets/icons/calendar";
 import HourGlassIcon from "@/assets/icons/horglass-icon";
 import TextIcon from "@/assets/icons/text-icon";
+import Link from "next/link";
 
 export default function BannerRequest() {
     return (
@@ -13,12 +14,12 @@ export default function BannerRequest() {
                     </p>
                 </div>
 
-                <button className="rounded-lg h-10 px-6 bg-blue-500 hover:bg-blue-600  
+                <Link href="/request/new-request" className="rounded-lg h-10 px-6 bg-blue-500 hover:bg-blue-600  
                 text-white text-sm font-bold leading-normal tracking-[0.015em] 
                 transition-colors shadow-sm gap-2 flex justify-center items-center cursor-pointer">
                     <span>+</span>
                     <span>New Request</span>
-                </button>
+                </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-4 mb-6 transition-colors">
