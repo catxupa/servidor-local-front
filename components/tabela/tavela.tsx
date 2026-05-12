@@ -17,7 +17,7 @@ export const Tavela = () => {
                     <span className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
                         Active Request
                     </span>
-                </div>  
+                </div>
 
                 {/* Lado Direito: Botão */}
                 <div className="flex items-center h-10 gap-3">
@@ -46,7 +46,7 @@ export const Tavela = () => {
 
                     <tbody>
                         <tr className="border-t border-spacing-5">
-                            
+
                             <td className="text-left px-4 py-2"> <p className="font-bold">Leaking Pipe Repair</p>
                                 <span className=" text-slate-500"><p>plumbing 🛠️ </p></span>
                             </td>
@@ -71,7 +71,8 @@ export const Tavela = () => {
                                 </div>
                             </td>
                             <td className="text-left px-4 py-2"><span className="bg-blue-50 rounded-xl px-4 py-2 font-semibold text-sm h-auto text-blue-500"> Quote reactived</span></td>
-                            <td className="text-left px-4 py-2"> <p className="font-semibold">$125.00 </p> <span className=" text-slate-500">$50/hr +$25 materials  </span></td>                                <td className="text-left px-4 py-2"><span className="flex items-center w-full p-3 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl font-medium">Req:Oct 24,2023 </span></td>
+                            <td className="text-left px-4 py-2"> <p className="font-semibold">$125.00 </p> <span className=" text-slate-500">$50/hr +$25 materials  </span></td>
+                            <td className="text-left px-4 py-2"><span className="flex items-center w-full p-3 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl font-medium">Req:Oct 24,2023 </span></td>
                             <td className="text-left px-4 py-2"><Button className="bg-blue-500 text-white font-semibold rounded-xl px-4 py-2 h-auto  transition-all cursor-pointer hover:bg-blue-600 shadow-md">
                                 Review quote
                             </Button></td>
