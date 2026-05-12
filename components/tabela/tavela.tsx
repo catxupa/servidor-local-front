@@ -17,11 +17,11 @@ export const Tavela = () => {
                     <span className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
                         Active Request
                     </span>
-                </div>
+                </div>  
 
                 {/* Lado Direito: Botão */}
                 <div className="flex items-center h-10 gap-3">
-                    <Button className="w-24 h-10 rounded-xl bg-slate-200 dark:bg-slate-800 flex items-center justify-center gap-2 border-none cursor-pointer transition-all hover:bg-slate-300 dark:hover:bg-slate-700 shadow-md">
+                    <       Button className="w-24 h-10 rounded-xl bg-slate-200 dark:bg-slate-800 flex items-center justify-center gap-2 border-none cursor-pointer transition-all hover:bg-slate-300 dark:hover:bg-slate-700 shadow-md">
                         <FilterIcon />
                         <span className="text-lg font-medium text-slate-700 dark:text-slate-200">
                             Filter
@@ -33,7 +33,7 @@ export const Tavela = () => {
 
 
             <div className="w-full h-full border-1 border-slate dark:border-gray-600/30 rounded-xl overflow-hidden">
-                <table className="border-1 border-slate/50 dark:border-gray-500 rounded-xl overflow-hidden bg-white dark:bg-slate-900">
+                <table className="border-1  w-full border-slate/50 dark:border-gray-500 rounded-xl overflow-hidden bg-white dark:bg-slate-900">
                     <thead>
                         <tr className="bg-slate-300 dark:bg-slate-800 rounded-xl ">
                             <th className="px-4 py-2 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Service Provider </th>
