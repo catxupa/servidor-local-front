@@ -55,6 +55,7 @@ export const Tavela = () => {
                                 View request <ChevronRight />
                             </Button></td>
                         </tr>
+                        
                         <tr className="border-t">
                             <td className="text-left px-4 py-2">
                                 <div className="flex items-center gap-3"> {/* Container Flexbox */}
