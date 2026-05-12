@@ -1,4 +1,5 @@
 
+import { FilterIcon } from "@/assets/icons/filter";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
@@ -6,12 +7,32 @@ import { ChevronRight } from "lucide-react";
 
 export const Tavela = () => {
     return (
-        <div>
-            <div className="flex items-start justify-start"><span className="text-2xl pl-80">Active Request</span></div>
-            <br />
+        <div className="w-full max-w-5xl mx-auto px-8 py-4"> {/* Container principal */}
 
-            <div className="flex items-center justify-center font-semibold">
-                <table className="pl-25 pr-25 rounded-xl border border-slate-200 dark:border-slate-800">
+           {/* Novo Container Flex: Alinha os itens horizontalmente e nas extremidades */}
+    <div className="flex items-center justify-between mb-4">
+        
+        {/* Lado Esquerdo: Texto */}
+        <div className="flex items-center gap-2">
+            <span className="text-2xl font-semibold text-slate-800 dark:text-white">
+                Active Request
+            </span>
+        </div>
+
+        {/* Lado Direito: Botão */}
+        <div className="flex items-center h-10 gap-3">
+            <Button className="w-24 h-10 rounded-xl bg-slate-200 dark:bg-slate-800 flex items-center justify-center gap-2 border-none">
+                <FilterIcon />
+                <span className="text-lg font-medium text-slate-700 dark:text-slate-200">
+                    Filter
+                </span>
+            </Button>
+        </div>
+
+    </div>
+
+            <div className="w-full h-full border-2 border-slate dark:border-gray-500/30 rounded-xl overflow-hidden">
+                <table className="border-1 border-gray-300/90 dark:border-gray-500/30 rounded-xl overflow-hidden">
                     <thead>
                         <tr className="bg-slate-100 dark:bg-slate-800 rounded-xl ">
                             <th className="px-4 py-2 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Service Provider </th>
@@ -21,9 +42,9 @@ export const Tavela = () => {
                             <th className="px-4 py-2 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Action</th>
                         </tr>
                     </thead>
-                    
+
                     <tbody>
-                        <tr>
+                        <tr className="border-t border-spacing-5">
                             <td className="text-left px-4 py-2"> <p className="font-bold">Leaking Pipe Repair</p>
                                 <span className=" text-slate-500"><p>plumbing 🛠️ </p></span>
                             </td>
@@ -34,7 +55,7 @@ export const Tavela = () => {
                                 View request <ChevronRight />
                             </Button></td>
                         </tr>
-                        <tr>
+                        <tr className="border-t">
                             <td className="text-left px-4 py-2">
                                 <div className="flex items-center gap-3"> {/* Container Flexbox */}
                                     <Avatar>
@@ -53,7 +74,7 @@ export const Tavela = () => {
                                 Review quote
                             </Button></td>
                         </tr>
-                        <tr>
+                        <tr className="border-t">
                             <td className="text-left px-4 py-2">
                                 <div className="flex items-center gap-3"> {/* Container Flexbox */}
                                     <Avatar>
@@ -75,7 +96,7 @@ export const Tavela = () => {
                         </tr>
 
 
-                        <tr>
+                        <tr className="border-t">
                             <td className="text-left px-4 py-2">
                                 <div className="flex items-center gap-3"> {/* Container Flexbox */}
                                     <Avatar>
@@ -97,7 +118,7 @@ export const Tavela = () => {
                         </tr>
 
 
-                        <tr>
+                        <tr className="border-t">
                             <td className="text-left px-4 py-2">
                                 <div className="flex items-center gap-3"> {/* Container Flexbox */}
                                     <Avatar>
@@ -121,6 +142,6 @@ export const Tavela = () => {
                 </table>
             </div>
 
-        </div>
+       </div>
     )
 }   
