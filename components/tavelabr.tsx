@@ -7,9 +7,6 @@ import { toast } from "sonner";
 
 
 
-
-
-
 export const Tavela = () => {
     const [prestacaoServico, setPrestacaoServico] = useState([]);
     useEffect(() => {
@@ -59,7 +56,6 @@ export const Tavela = () => {
 
                     <tbody>
                         <tr>
-
                             <td className="text-left px-4 py-2">
 
                                 <span className="flex items-center w-full p-3 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl font-medium"> aguardando as resposta.....</span></td>
@@ -95,18 +91,12 @@ export const Tavela = () => {
                                 </td>
 
                                 <td className="text-left px-4 py-2">
-                                    <span className=" text-slate-500"><p>{item.subtotal}</p></span>
+                                    <span className=" text-slate-500"> <p>{item.subtotal}</p></span>
                                 </td>
 
                                 <td className="text-left px-4 py-2">
                                     <span className="flex items-center w-full p-3 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl font-medium">{item.created_at || item.updated_at}</span></td>
                                 <td className="text-left px-4 py-2">
-
-
-
-
-
-
                                     <Button className="bg-blue-500 text-white font-semibold rounded-xl px-4 py-2 h-auto">
                                         Review quote
                                     </Button></td>
